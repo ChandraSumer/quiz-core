@@ -1,5 +1,6 @@
 package fundamental_project;
 
+import java.io.IOException;
 import java.util.List;
 
 import fr.epita.quiz.datamodel.MCQQuestion;
@@ -7,7 +8,7 @@ import fr.epita.quiz.datamodel.MCQQuestionsCSVDAO;
 
 public class testMCQQuestionCSVDAO {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		MCQQuestion mcqQuestion = new MCQQuestion();
 		MCQQuestionsCSVDAO dao = new MCQQuestionsCSVDAO();
 
